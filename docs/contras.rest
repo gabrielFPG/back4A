@@ -1,0 +1,17 @@
+##########################
+POST http://127.0.0.1:3000/auth/forgot-password
+Content-Type: application/json
+
+{
+    "email":"gfg.pantoja@yavirac.edu.ec"
+    
+}
+
+############
+POST http://localhost:3000/auth/reset-password
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdmZy5wYW50b2phQHlhdmlyYWMuZWR1LmVjIiwiaWF0IjoxNzMzODg2ODcwLCJleHAiOjE3MzM4OTA0NzB9.opEJLpSfPLsuo-VijI7Dg5CdfSW9x5G1Kyp2q3TjVfA",
+  "newPassword": "1234567"
+}
